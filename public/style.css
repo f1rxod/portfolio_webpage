@@ -1,0 +1,276 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.navbar{
+    background-color: rgb(1, 0, 48);
+    padding: 20px;
+    width: 100%;
+}
+.navbar-brand{
+    flex: 1;
+}
+.navbar-brand img{
+    padding-right: 10px;
+}
+.nav-link{
+    color: white;
+}
+.intro{
+    background-color: rgb(1, 0, 48);
+    padding: 0 0% 0% 5%;
+    margin-top: 0;
+    height: 600px;
+}
+.intro button{
+    background-color: white;
+    color: black;
+    padding: 15px 35px;
+    border-radius: 30px; 
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.intro i{
+    color: rgb(1, 0, 48);
+    padding-left: 30px;
+}
+.intro .intro_img{
+    width:500px;
+    float: right;
+    height: 600px;
+}
+.intro h1{
+    font-size: 70px;
+}
+.intro .intro_p{
+    font-weight: 100;
+    font-size: 15px;
+}
+.intro h2{
+    font-size: medium;
+}
+.intro .col-10{
+    padding-top: 10px;
+}
+.intro .col-10 p{
+    color: gray;
+}
+.intro .col-10 a{
+    text-decoration: none;
+    color: gray;
+}
+.about{
+    margin:5% 0% 5% 5%;
+}
+.section_name{
+    color: rgb(69, 67, 223);
+    margin-bottom: 100px;
+}
+.stars{
+    margin-bottom: 20px;
+}
+.about *{
+    color: black;
+}
+
+.about .col-9 p:nth-child(1){
+    padding-top: 5px;
+    font-size: large;
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.about .col-lg-8{
+    padding-left: 50px;
+}
+.about .col-lg-8 h1{
+    margin-bottom: 80px;
+}
+.about .col-lg-8 .row h1{
+    color: rgb(69, 67, 223);
+    margin-bottom: 0;
+}
+.companies{
+    display: flex;
+    grid-column-gap: 50px;
+}
+.companies p{
+    font-size: large;
+    font-weight: 900;
+}
+.companies img{
+    width: 60px;
+}
+.works{
+    margin:10% 5% 5% 5%;
+}
+.works *{
+    color: black;
+}
+.works .section_name{
+    margin-bottom: 40px;
+}
+.card{
+    width: 100%;
+    margin-bottom: 50px;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+}
+.card .btn{
+    background-color: rgb(69, 67, 223);
+    color: white;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.services{
+    background-color: rgb(1, 0, 48);
+    padding: 5%;
+}
+.services .section_name{
+    color: white;
+}
+.services .col-lg-4 h3{
+    margin: 20px auto;
+}
+.services .col-lg-4 p{
+    padding: 5px 100px;
+}
+.services button{
+    display: block;
+    margin: 30% auto 0;
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+.services .row{
+    text-align: center;
+}
+.services .second_row_services{
+    margin-top: 50px;
+}
+.testimonials{
+    background-color: rgb(216, 216, 233);
+    padding: 5%;
+}
+.testimonials .col-lg-6{
+    height: 360px;
+    background-color: white;
+    width: 45%;
+    margin: auto;
+    padding: 3%;
+    border-radius: 25px 25px 0 25px;
+}
+.testimonials .first{
+    margin-right: 5%;
+}
+.testimonials .col-lg-6 h1, .testimonials .col-lg-6 p{
+    color: black;
+}
+.testimonials .starter{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.testimonials button{
+    display: block;
+    margin: 5% auto 0;
+    padding: 20px 60px;
+    background-color: white;
+    border: none;
+    color: black;
+}
+.process{
+    padding: 5%;
+}
+.process h1, .process p{
+    color: black;
+}
+.process div .col-6 p{
+    float: right;
+    padding-left: 40%;
+}
+.process .process_number{
+    margin-top: 5%;
+}
+.process .process_number h1{
+    color: rgb(69, 67, 223);
+    font-size: 50px;
+}
+.process .process_number h3{
+    color: black;
+}
+.process .process_number p{
+    padding-right: 50px;
+}
+.process .process_number img{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+footer{
+    background-color: rgb(1, 0, 48);
+    padding: 50px 50px 10px;
+    text-align: center;
+}
+footer h1{
+    margin-bottom: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width:1090px) {
+    .services .col-lg-4 p{
+        padding: 5px 15px;
+    }
+    .intro{
+        height: auto;
+        padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .intro .intro_img{
+        display: none;
+    }
+    .intro .col-lg-6{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:991px) {
+    .services button{
+        margin: auto;
+    }
+    .nav-link{
+        font-size: 40px;
+        text-align: center;
+    }
+    .services .col-lg-4 p{
+        padding: 5px 100px;
+    }
+    .testimonials .starter{
+        margin-bottom: 100px;
+    }
+    .testimonials button{
+        margin: auto;
+    }
+    .about .col-lg-8{
+        margin-top: 100px;
+        padding-left: 0px;
+    }
+    .testimonials .col-lg-6{
+        height: 300px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .process .process_number img{
+        display: none;
+    }
+    .process .process_number{
+        text-align: center;
+    }
+}
