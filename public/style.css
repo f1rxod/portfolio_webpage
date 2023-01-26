@@ -103,7 +103,6 @@
 }
 .companies{
     display: flex;
-    grid-column-gap: 50px;
 }
 .companies p{
     font-size: large;
