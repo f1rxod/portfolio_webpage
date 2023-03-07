@@ -191,7 +191,7 @@
     color: white;
 }
 .card:hover{
-    transform: skew(3deg);
+    transform: scale(1.05);
 }
 .services{
     background-color: rgb(1, 0, 48);
